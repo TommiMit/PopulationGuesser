@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="prova.js"></script>
+    <script src="style.js"></script>
+    <script src="Pizzicato.js"></script>
+
+</head>
+<body onload="avvio()">
+
+    <section id="sect" class="sect">
+
+
+        <div id="flagImgL" class="split left" >
+            <h1 id="flagL" class="flagName"></h1>
+            <h1 id="flagInfoL" class="flagInfo">100000<h1>
+            <button type="button" style="border: 0; background: transparent" class="buttons" onclick="lower()"><img src="up.png"></button>
+            
+            <div id="score" class="score"><h1>DSADS</h1></div> 
+        </div>
+
+        <div id="flagImgR" class="split right">
+            <h1 id="flagR" class="flagName"></h1>
+            <h1 id="flagInfoR" class="flagInfo"> ( ? ) <h1>
+            <button type="button" style="border: 0; background: transparent" class="buttons" onclick="higher()"><img src="up.png"></button>
+
+            <div id="highScore" class="score"><h1>DSADS</h1></div> 
+        </div>
+        
+
+    </section>
+</body>
+</html>

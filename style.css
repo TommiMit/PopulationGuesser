@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+}
+
+@font-face {
+	font-family: goodFont;
+	font-weight: bold;
+	src: url(0ec2c5a68270757c2200d436b6904b60.woff);	
+
+}
+
+
+/* Split the screen in half */
+.split {
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+	left: 0;
+	background-image: url("flags/Vatican City.jpg");
+	background-size: 80% 40%;
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-position: 50% 60%; 
+	background-color: #d4d4d4;
+	transform: scale(1
+	);
+}
+
+/* Control the right side */
+.right {
+	right: 0;
+	background-image: url("flags/Egypt.jpg");
+	background-size: 80% 40%;
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-position: 50% 60%; 
+	background-color: #d4d4d4;;
+}
+
+/* If you want the content centered horizontally and vertically */
+.flagName {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -400%);
+	font-family: "goodFont",sans-serif;
+	font-size: 650%;
+}
+
+.flagInfo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -350%);
+	font-family: "goodFont",sans-serif;
+	font-size: 550%;
+}
+
+.buttons {
+	transform: translate(0%, 185%);
+}
+/* Style the image inside the centered container, if needed */
+.centered img {
+	width: ;
+}
+
+.score {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -1350%);
+}	
+
+h1 {
+		
+		text-align: center;
+		color: rgba(15, 15, 15, .8);
+		text-shadow: 2px 2px 4px rgba(80, 80, 80, .6);
+		white-space: nowrap;		
+}
+
